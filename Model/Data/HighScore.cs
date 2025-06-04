@@ -3,7 +3,6 @@ using System.Xml.Serialization;
 
 namespace Model.Data
 {
-  //  [Serializable]
     public class HighScore : IComparable<HighScore>
     {
         public string PlayerName { get; set; }
